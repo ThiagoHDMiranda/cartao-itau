@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans:wght@300;400&family=Roboto:wght@300;400&family=Sen&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
+#front {
+  height: 90vh;
+  width: 65vh;
+  margin: 5vh 10vh;
+  background-color: #ef671a;
+  border-radius: 3vh;
+  display: flex;
+  flex-direction: column;
+}
+#top {
+  display: flex;
+  justify-content: space-between;
+}
+#VisaPlatinum {
+  margin: 10vh 0 10vh 6vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#visa {
+  color: #bdbab1;
+  font-size: 8vh;
+  font-weight: bolder;
+}
+#platinum {
+  color: #8f9089;
+  font-size: 3vh;
+}
+#images {
+  margin: 10vh 15vh 7vh 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+}
+
+#chip {
+  height: 13vh;
+}
+#wifi {
+  height: 10vh;
+}
+#mid {
+  margin: 6vh;
+}
+.name {
+  color: #ecbf96;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  font-size: 3vh;
+}
+#bottom {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#itauBox {
+  margin: 4vh;
+  height: 12vh;
+  width: 12vh;
+  background-color: #002663;
+  border-radius: 20%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+#itau {
+  color: #d1c231;
+  font-size: 7vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#clickBox {
+  width: 20vh;
+  height: 25vh;
+  background-color: #ec5612;
+  border-radius: 10vh 5px 10vh 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#click {
+  font-size: 7vh;
+  color: #f7e2dc;
+  transform: rotate(270deg);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#back {
+  color: #ffffff;
+  height: 90vh;
+  width: 65vh;
+  margin: 5vh 10vh;
+  background-color: #434c89;
+  border-radius: 3vh;
+  display: flex;
+  flex-direction: row;
+}
+#infoLeft {
+  display: flex;
+  flex-direction: column;
+  width: 7vh;
+}
+.info1 {
+  transform: rotate(270deg);
+  text-align: end;
+  margin-top: 40vh;
+  font-size: 1vh;
+}
+.info2 {
+  transform: rotate(270deg);
+  text-align: end;
+  margin-top: 40vh;
+  font-size: 1vh;
+}
+#orange {
+  background-color: #ec5612;
+  width: 15vh;
+}
+#infoRight {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+  margin: 4vh 3vh;
+}
+#firtLine {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10vh;
+}
+#infoItau {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+}
+.right1 {
+  font-size: 10vh;
+  font-family: sen;
+}
+.right2 {
+  font-size: 3vh;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 5.5vh;
+}
+#sentence {
+  display: flex;
+  flex-direction: column;
+  margin: 4.5vh 3vh 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#cardNumber {
+  font-size: 4.4vh;
+}
+#expirationTitle {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.5vh;
+  margin: 10% 30% 0 0;
+}
+#expirationDate {
+  display: flex;
+  justify-content: space-around;
+  font-size: 3.5vh;
+  margin: 10% 30% 0 0;
+}
